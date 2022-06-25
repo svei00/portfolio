@@ -30,22 +30,22 @@ year.textContent = fullYear;
     let windowPosition;
     let isFixed = false;
 
-    function updatePositon() {
+    function updatePosition() {
         windowPosition = window.scrollY;
     }
 
     function onScroll() {
 
-        updatePos();
+        updatePosition();
     
-        if (windowPos >= breakpoint && !isFixed) {
+        if (windowPosition >= breakpoint && !isFixed) {
             navbar.classList.remove("open");
 
             navbar.classList.add("navbar-fixed");
             main.style.cssText = "margin-top: " + navbarHeight + 'px;';
             isFixed = true;
     
-        } else if (windowPos < breakpoint && isFixed) {
+        } else if (windowPosition < breakpoint && isFixed) {
             navbar.classList.remove('navbar-fixed');
             main.style.cssText = "margin-top: " + 0;
             isFixed = false;
