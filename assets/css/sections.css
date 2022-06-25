@@ -1,0 +1,32 @@
+html {
+    background: linear-gradient(var(--white), var(--secondary-light));
+}
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#navbar, section.even{
+    background: linear-gradient(var(--primary), var(--primary-dark));
+}
+
+footer {
+    background-color: var(--primary-dark);
+    color: var(--secundary);
+}
+
+hr {
+    height: .1rem;
+    max-width: 100%;
+    border: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--secundary-dark), rgba(0, 0, 0, 0));
+}
+
+section.even hr {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), var(--secundary-dark), rgba(0, 0, 0, 0));
+}
+
+section hr {
+    margin-bottom: 5rem;
+}

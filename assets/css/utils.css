@@ -1,0 +1,4 @@
+.circle { /* Change class name */
+    border-radius: 6px;
+    border: 2px solid var(--secundary-light);
+}

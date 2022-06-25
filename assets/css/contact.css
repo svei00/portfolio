@@ -1,0 +1,67 @@
+#contact font {
+    font-size: 1.2rem;
+}
+
+#contact form label {
+    display: block;
+    width: 50%;
+}
+
+#contact input, textarea, input:focus,
+textarea:focus {
+    width: 100%;
+    padding: 1rem;
+    color: var(--terciary);
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    cursor: pointer;
+    margin: 1rem 0 2rem;
+}
+
+#contact textarea {
+    resize: none;
+}
+
+#contact form button {
+    background-color: var(--secundary);
+    color: var(--terciary);
+    margin: 3rem;
+    border: none;
+    padding: 1rem;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+
+#contact form button:hover{
+    background-color: var(--secundary-dark);
+    font-size: 150%;
+}
+
+#social-media a{
+    text-decoration: none;
+}
+
+#social-media > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+#social-media img {
+    max-width: 2rem;
+}
+
+#linkedin:hover{
+    background-color: #0077b5;
+}
+
+#github:hover{ 
+    background-color: #000;
+}
+
+#youtube:hove{
+    background-color: #ff0000;
+}

@@ -1,0 +1,87 @@
+#navbar {
+    box-shadow: 0px 0px 10px 1px var(--terciary-dark);
+}
+
+#navbar div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar div a {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+}
+
+#navbar div a:hover {
+    color: var(--terciary-light2);
+    font-size: 125%;
+    transition: color 1s ease, color 1s ease;
+}
+
+#navbar div img {
+    margin-right: .5rem;
+}
+
+#navbar button {
+    background-color: transparent;
+    color: var(--terciary-light2);
+    font-size: 1.5rem;
+    padding: .2rem .7rem;
+    margin: .7rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+#navbar.open button {
+    background-color: var(--terciary);
+    color: var(--primary);
+    border: 2em;
+}
+
+#navbar ul {
+    background: linear-gradient(var(--primary), var(--primary-dark));
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    padding: 0px;
+    margin: 0px;
+    max-height: 0px; /* We gonna fix with JS */ 
+    transition: max-height .3s ease;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+
+#navbar.open ul {
+    max-height: 150%;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0px;
+}
+
+#navbar ul a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--terciary-light2);
+    transition: color 1s ease, background-color 1s ease;
+}
+
+#navbar ul a:hover,
+#navbar ul a:focus {
+    color: var(--secundary);
+    font-weight: bold;
+    font-size: 150%;
+    background-color: var(--terciary-light2);
+}
+
+ .navbar-fixed {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 100;
+} 
