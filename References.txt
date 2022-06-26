@@ -66,6 +66,7 @@ https://htmlcolors.com/hex-to-hsl
 https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
 https://developer.mozilla.org/en-US/docs/Web/JavaScript
 https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html
+api.jquery.com
 
 <!-- DOM -->
 https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
