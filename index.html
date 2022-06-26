@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> Resets all CSS Styles before continue. I comment this after the NPN-->
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css"> <!-- Normalize library from NPM replaces te line above -->
+    <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal-plain.min.css"> <!-- Library to use with eins-modal -->>
     <title>Iv&aacute;n Villanueva | Portafolio</title>
     <link rel="stylesheet" href="./assets/css/styles.css" type="text/css"> 
     <script src="./assets/js/styles.js" defer></script>
+    <script src="./node_modules/eins-modal/dist/js/eins-modal-plain.min.js"></script> <!-- Complements the CSS -->
 </head>
 <body>
     
@@ -109,9 +111,22 @@
             <h3>Exprerience</h3>
             <hr>
             <div>
-                <a href="">
+                <a data-modal-id="myModal">
                     <img src="./assets/img/experiencie/HMS6S10GQK6r4Q9lCruv_academia_logo_large.png" alt="Academia X">
                     <h4>Academia X Bootcamp</h4>
+                    <!-- Modal -->
+                    <div id="myModal" class="eins-modal" data-options="openTransition: bounceLeftIn;">
+                        <div class="eins-modal-content">
+                        <div class="eins-modal-close"></div>
+                    
+                        <!-- Your Content -->
+                        <h1>Academia X</h1>
+                        <h2>Bootcamp</h2>
+                        <p><br>Where I learn a lot about FullStack Develomnet</p>
+                        
+                        <button class="eins-modal-close-button">OK</button>
+                        </div>
+                    </div>
                 </a>
                 <a href="">
                     <img src="./assets/img/experiencie/M&MBanner.jpg" alt="Murillo Mortola Contadores">

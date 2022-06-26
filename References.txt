@@ -75,3 +75,5 @@ https://www.w3schools.com/js/js_htmldom.asp
 https://caniuse.com/
 https://dom.spec.whatwg.org/ 
 
+<!-- FrontEnd Tools -->
+https://www.einscms.com/modal/#examples - modal examples.
