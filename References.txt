@@ -1,0 +1,79 @@
+<!-- HTML -->
+Free Images
+https://www.cleanpng.com/png-laptop-tablet-computer-computer-monitor-smartphone-134098/download-png.html
+
+Free Videos
+https://pixabay.com/videos/matrix-scifi-pattern-technology-18977/
+
+Hamburger Icon
+https://stackoverflow.com/questions/32070745/unicode-9776-hamburger-not-displaying-in-android-chrome
+
+HTML Resources
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+https://www.w3schools.com/html/default.asp
+https://html.spec.whatwg.org/multipage/
+https://digital.com/tools/html-cheatsheet/
+https://imagecolorpicker.com/ Color Picker
+
+
+*** Change Hamburger Button to X ***
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js
+
+*** Current Year ***
+<script>document.write(new Date().getFullYear())</script>
+
+<!-- CSS -->
+Reset CSS Styles:
+https://meyerweb.com/eric/tools/css/reset/
+https://necolas.github.io/normalize.css/
+https://cdnjs.com/libraries/meyer-reset CDN that allos from link tag reset CSS styles
+https://caniuse.com <!-- Web to check if can I use certain proporty of web browser -->
+https://icons8.com/ <!-- icons --
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animated_properties tramsotopms
+https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+https://elementor.com/blog/website-color-schemes/
+
+<!-- CSS Generators -->
+https://twitter.com/Prathkum/status/1533319271169785856
+stripesgenerator.com
+cssgradient.io
+patternify.com
+accordionslider.com
+palette.ninja
+https://grid.layoutit.com
+https://keyframes.app
+https://css-grid-layout-generator.p
+http://menucool.com/css-menu
+glassgenerator.netlify.app
+https://coolors.co/
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+https://www.w3schools.com/css/default.asp
+https://caniuse.com/
+https://www.w3.org/Style/CSS/specs.en.html
+https://sass-lang.com/
+https://lesscss.org/
+https://websitesetup.org/css3-cheat-sheet/
+
+
+Specificy Calculator
+https://polypane.app/css-specificity-calculator/#selector=
+
+Color Calculator
+https://htmlcolors.com/hex-to-hsl
+
+<!-- Javascript -->
+https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+https://www.usability.gov/how-to-and-tools/methods/user-interface-elements.html
+api.jquery.com
+
+<!-- DOM -->
+https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+https://www.w3schools.com/js/js_htmldom.asp
+https://caniuse.com/
+https://dom.spec.whatwg.org/ 
+
+<!-- FrontEnd Tools -->
+https://www.einscms.com/modal/#examples - modal examples
